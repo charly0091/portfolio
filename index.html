@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/icono.jpg"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <Link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li> <a href="#inicio">INICIO</a></li>
+                            <li> <a href="#sobremi">SOBRE MI</a></li>
+                            <li> <a href="#servicios">SERVICIOS</a></li>
+                            <li> <a href="#portfolio">PORTFOLIO</a></li>
+                            <li> <a href="#contacto">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/carlos-pinto-mdp/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/charly0091" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenidos">Hello Word!!</p>
+                <h2>Soy <span>Carlos Pinto</span>, Full Stack Developer</h2>
+                <p class="descripcion">
+                    Full Stack Developer con formación como Diseñador
+                    Web. Experiencia trabajando en NodeJS, React, Redux,
+                    SQL,Express entre otras tecnologías del sector.
+                    Desarrolle un proyecto web con una Api externa de
+                    perros implementando búsqueda, creación, detalle,
+                    entre otras y también estuve en el desarrollo de
+                    un proyecto e-comerce, el proyecto era grupal
+                    con un total de 7 integrantes.
+                    Con pensamiento creativo, resolución de
+                    problemas, trabajo en equipo, comunicación,
+                    perseverancia y autonomía.
+                </p>
+                <a href="CVCarlosPinto.pdf" target="_blank" >Descargar CV</a>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="./img/Foto_Perfil.jpg" alt="foto profile">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola! soy <span>Carlos Pinto</span></h2>
+            <h3>Desarrollador full stack developer</h3>
+            <p>Me interesé en la programación porque me gusta resolver problemas y me siento cómodo trabajando en equipo. Realicé el bootcamp de full-stack developer de 700 horas en Henry, en esta experiencia adquirí conocimientos en distintas tecnologías de desarrollo web como HTML, CSS, Javascrip, React, Redux, Express, Sequelize, entre otras.</p>
+            <p>Anteriormente trabajaba como voluntario en las fuerzas Armadas, esto me brindo herramientas para enfrentarme a la frustración y una paciencia inigualable. Ademas como estudiante de administración de pymes tuve la oportunidad de ser encargado administrativo adquiriendo Servicio en: de comunicación efectiva con empleados y dueños de la empresa.</p>
+            
+        </div>
+    </section>
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Javascript</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-react"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>React</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Redux</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Express</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Postgres SQL</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-solid fa-code"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Sequelize</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-node-js"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>NodeJS</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-github"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Git</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-html5"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>HTML / HTML5</li>
+                    </ul>
+                </span>
+            </div>
+            <div class="servicio">
+                <span class="icono">
+                    <i class="fa-brands fa-css3"></i>
+                    <h4>Servicio en:</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>CSS</li>
+                    </ul>
+                </span>
+            </div>
+            
+        </div>
+    </section>
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/only pan.png" alt="">
+                <div class="info">
+                    <h4>descripcion del proyecto</h4>
+                    <p>Poryecto e-commerce de 7 integrantes Link: <a href="https://github.com/renauzca/onlypanbackend" target="_blank">github back-end...</a> <a href="https://github.com/Brai99chavez/onlypan-frontend">github front-end...</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/pi.png" alt="">
+                <div class="info">
+                    <h4>descripcion del proyecto</h4>
+                    <p>Proyecto individual implementando CRUD y utilizando una Api de perros Link: <a href="https://github.com/FacuF54/Pi-Dogs" target="_blank">github...</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="./img/encriptador.png" alt="">
+                <div class="info">
+                    <h4>descripcion del proyecto</h4>
+                    <p>Proyecto individual encriptador de vocales: <a href="https://encriptador-de-vocales.vercel.app/" target="_blank">deploy...</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/charly91.3ds@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo"  name="name" required class="input mitad">
+
+                    <input type="email"  placeholder="Dirección de correo"  name="email" required class="input mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto"  name="subjet" required class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"  name="comments" required class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <script src="scrip.js"></script>
+</body>
+</html>
