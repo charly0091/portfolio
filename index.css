@@ -58,7 +58,7 @@ html {
     display: inline-block;
     margin-left: 10px;
     transition: .5s;
-    
+    font-size: 27px;
 }
 
 #inicio .contenido header .contenido-header .redes a:hover{
