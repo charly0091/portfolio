@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+
+    background-color: #000000;
+}
+
 #inicio {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("https://nuestroclima.com/wp-content/uploads/2018/03/Rayos.jpg");
     background-size: cover;
@@ -130,8 +135,9 @@ html {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: #111135;
+    color: #f1f9fe;
     display: flex;
+    
 }
 
 #sobremi .contenedor-foto{
@@ -141,10 +147,10 @@ html {
 }
 
 #sobremi .contenedor-foto img{
-    padding: 20px;
-    width: 300px;
-    border-radius: 20px;
-    background-color: #f3f3f3;
+    padding: 5px;
+    width: 400px;
+    background-color: #030a19;
+    border-radius: 50%;
 }
 
 #sobremi .sobremi{
@@ -154,8 +160,8 @@ html {
 #sobremi .sobremi .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
-    text-decoration: underline;
+    color: #f1f9fe;
+    text-decoration: none;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
@@ -167,11 +173,25 @@ html {
     letter-spacing: 2px;
 }
 
+#sobremi .sobremi h3{
+    font-size: 27px;
+    font-weight: bold;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+#sobremi .sobremi .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 17px;
+    text-align: justify;
+}
+
 #sobremi .sobremi span{
     color: rgb(129, 179, 194);
 }
 
-#sobremi .sobremi h3{
+#sobremi .sobremi h4{
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -182,7 +202,7 @@ html {
 #sobremi .sobremi p{
     font-size: 15px;
     line-height: 25px;
-    color: #565656;
+    color: #f1f9fe;
     margin-bottom: 12px;
 }
 
@@ -207,31 +227,45 @@ html {
 #servicios {
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #030a19;
 }
 
 #servicios .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
-    text-decoration: underline;
+    color: #f1f9fe;
+    text-decoration: none;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
 
 #servicios .fila {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
     max-width: 1150px;
-    margin: 30px auto;
-    flex-wrap: wrap;
+    margin: 50px auto;
+}
+
+#servicios .fila .services-box {
+    background: #7196BD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+#servicios .fila .services-box .iconify {
+    font-size: 4rem;
+    color: #030a19;
 }
 
 #servicios .fila .servicio {
-    max-width: 350px;
+    max-width: 450px;
     background-color: #fff;
     padding: 25px;
     margin: 10px;
@@ -276,17 +310,17 @@ html {
 /* seccion portfolio */
 
 #portfolio {
-    max-width: 1100px;
     padding: 100px 0;
     margin: auto;
+    background-color: #1A3757;
 }
 
 #portfolio .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
-    text-decoration: underline;
+    color: #f1f9fe;
+    text-decoration: none;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
@@ -299,7 +333,6 @@ html {
 
 #portfolio .fila .proyecto {
     max-width: 450px;
-    border: 1px solid #000;
     margin: 0 10px;
     position: relative;
     overflow: hidden;
@@ -307,13 +340,19 @@ html {
 
 #portfolio .fila .proyecto img {
     width: 100%;
-    height: 100%;
     filter: grayscale(1);
     object-fit: cover;
     transition: .5s;
 }
+
+#portfolio .fila .proyecto:hover{
+    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    max-width: none;
+}
+
 #portfolio .fila .proyecto:hover img{
-filter: grayscale(0);
+    filter: grayscale(0);
+    width: 100%;
 }
 
 #portfolio .fila .proyecto .info {
@@ -337,15 +376,15 @@ filter: grayscale(0);
 
 #contacto {
     padding: 100px 15px;
-    background-color: #f3f3f3;
+    background-color: #25507D;
 }
 
 #contacto .titulo-seccion {
     text-align: center;
     font-size: 22px;
     text-transform: uppercase;
-    color: #111135;
-    text-decoration: underline;
+    color: #f1f9fe;
+    text-decoration: none;
     text-decoration-color: #d3d3d3;
     text-decoration-thickness: 5px;
 }
