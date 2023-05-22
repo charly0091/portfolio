@@ -338,6 +338,21 @@ body {
     overflow: hidden;
 }
 
+#portfolio .fila .proyecto h2 {
+    color: #fff;
+    font-size: 21px;
+    transition: .5s;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+#portfolio .fila .proyecto h2 a{
+    text-decoration: none;
+    color: #7196BD;
+}
+
 #portfolio .fila .proyecto img {
     width: 100%;
     filter: grayscale(1);
@@ -346,8 +361,9 @@ body {
 }
 
 #portfolio .fila .proyecto:hover{
-    box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+    
     max-width: none;
+    
 }
 
 #portfolio .fila .proyecto:hover img{
@@ -408,7 +424,13 @@ body {
     padding: 20px;
     border-radius: 20px;
     border: none;
-    border: 1px solid #919191;
+    border: 2px solid #7196BD;
+}
+
+#contacto .contenedor-form input:focus, #contacto .contenedor-form textarea:focus{
+    outline: none;
+    box-shadow: 0 0 15px 20px #1A3757;
+
 }
 
 #contacto .contenedor-form .fila {
